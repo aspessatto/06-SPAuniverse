@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --fc-title: rgb(255, 255, 255);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background-image: url('/images/mountains-universe-3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  color: #FFF;
+  height: 100vh;
+}
+
+.container {
+  margin-left: -90rem;
+  margin-top: -10rem;
+}
+
+.container h2 {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+}
+
+.container p {
+  width: 65rem;
+  font-size: 2rem;
+  line-height: 3rem;
+}
